@@ -14,9 +14,9 @@ setup(
     description='Entity linker for TAISTI project',
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url='https://github.com/taisti/entity_linking',
+    url='https://github.com/taisti/entity_linker',
     project_urls = {
-        "Bug Tracker": "https://github.com/taisti/entity_linking/issues"
+        "Bug Tracker": "https://github.com/taisti/entity_linker/issues"
     },
     packages=find_packages(),
     license='MIT',
