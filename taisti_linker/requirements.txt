@@ -1,0 +1,16 @@
+en-core-web-trf @ https://github.com/explosion/spacy-models/releases/download/en_core_web_trf-3.4.0/en_core_web_trf-3.4.0-py3-none-any.whl
+huggingface-hub==0.8.1
+nltk==3.7
+numpy==1.23.1
+Owlready2==0.38
+regex==2022.7.25
+spacy==3.4.1
+spacy-alignments==0.8.5
+spacy-legacy==3.0.9
+spacy-loggers==1.0.3
+spacy-transformers==1.1.7
+tokenizers==0.12.1
+torch==1.12.1
+tqdm==4.64.0
+transformers==4.20.1
+
