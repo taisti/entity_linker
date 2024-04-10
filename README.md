@@ -52,7 +52,7 @@ Runs entity linker over the NER output located in `../ner_output.json` file and 
 
 ## How to run Entity Linker with NER?
 - Ger NER: `git clone https://github.com/taisti/ner`
-- Install requierements `pip install -r requirements.txt`
+- Install requierements `pip install -r requirements.txt` (if you notice errors related to `tokenizers` library, you probably need to install rust compiler using `curl https://sh.rustup.rs -sSf | sh` command) and then rerun `pip install ...`.
 - Move into the source code `mv src`
 - Train a model with `python3 train_model.py`
 - Run interactive prediction over your own texts using `python3 predict.py` script. It will ask you to loop over your examples. When you finish, it will store the output of the ner in a json file (by default `output.json` file).
